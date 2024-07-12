@@ -1,0 +1,37 @@
+.create-acc{
+    width: 100%;
+    height: auto;
+}
+.create-acc .acc-conatiner{
+    width: 50%;
+    height: 40vh;
+    border: 1px solid rgb(225, 56, 56);
+    margin: 15vh auto;
+    border-radius: 15px;
+    box-shadow: inset 0px 0px 20px rgb(255, 147, 47);
+    background: grey;
+}
+.create-acc .acc-conatiner h2{
+    text-align: center;
+    color: green;
+    text-shadow: 0px 13px 15px rgb(184, 180, 180);
+}
+.create-acc .acc-conatiner form input,button{
+    display: block;
+    margin: 4vh auto;
+}
+.create-acc .acc-conatiner form input{
+    width: 70%;
+    height: 5vh;
+    border: none;
+    border-bottom: 1.5px solid blue ;
+}
+.create-acc .acc-conatiner form button{
+    width: 25%;
+    height: 5vh;
+    border: 2px solid green;
+    border-radius: 13px;
+}
+.create-acc .acc-conatiner form button:active{
+    background: green;
+}

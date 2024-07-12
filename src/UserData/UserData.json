@@ -1,0 +1,37 @@
+{
+  "UserData": [
+    {
+      "id": "0",
+      "email": "user1@gmail.com",
+      "password": "created"
+    }
+  ],
+  "CompanyData": [],
+  "Stocks": [
+    {
+      "id": "0",
+      "sname": "GOOG",
+      "price": ""
+    },
+    {
+      "id": "1",
+      "sname": "TSLA",
+      "price": ""
+    },
+    {
+      "id": "2",
+      "sname": "AMZN",
+      "price": ""
+    },
+    {
+      "id": "3",
+      "sname": "META",
+      "price": ""
+    },
+    {
+      "id": "4",
+      "sname": "NVDA",
+      "price": ""
+    }
+  ]
+}

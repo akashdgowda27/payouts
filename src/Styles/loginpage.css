@@ -1,0 +1,53 @@
+.loginpage{
+    
+}
+.loginpage .login-container{
+    width: 40vw;
+    height: 40vh;
+    border: 1px solid rgb(199, 191, 191);
+    margin: 15vh auto;
+    border-radius: 15px;
+    background: rgb(192, 192, 192);
+    box-shadow: inset 0px 0px 20px lightyellow;
+}
+.loginpage .login-container .form{
+    width: 100%;
+    height: 100%;
+}
+.loginpage .login-container .form form input,button{
+    display: block;
+    margin: 3vh auto;
+}
+.loginpage .login-container .form form input{
+    width: 70%;
+    height: 5vh;
+    border: none;
+    border-bottom: 1.5px solid rgb(248, 248, 248);
+    background: silver;
+}
+.loginpage .login-container .form form input::placeholder{
+    padding-left: 10%;
+}
+.loginpage .login-container .form form button{
+    width: 25%;
+    height: 5vh;
+    border-radius: 15px;
+    font-size: 20px;
+    border: 2px solid black;
+
+}
+.loginpage .login-container .form form button:active{
+    background-color: green;
+}
+.loginpage .login-container .form h3{
+    margin-top: 5vh;
+    text-align: center;
+}
+.loginpage .login-container .form h3 span{
+    font-weight: lighter;
+    font-size: 18px;
+}
+.loginpage .login-container .form h3 a{
+    color: blue;
+    cursor: pointer;
+}
